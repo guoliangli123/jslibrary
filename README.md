@@ -1,28 +1,16 @@
-# My Resume
+# My jsLibrary
 
-[html.love](http://html.love)
+
 
 ## Introduction
 
-风格参考 @Ovilia @joyeecheung @lishengzxc
+包含了js中的常用函数
 
-## Usage
+## Method
 
-1. Star 本项目
-1. Clone 到本地
-1. 在 `index.html` 和 `print.html` 文件中填写你的信息
-1. 生成PDF（以 OS X 操作系统 Chrome 浏览器为例）：打开`文件->打印`，设置布局为纵向，纸张尺寸为A3，边距无，背景图片选项打钩，保存；压缩PDF，推荐在线压缩工具[smallpdf](http://smallpdf.com/cn/compress-pdf)；将压缩过的PDF文件放在根目录内
-1. 部署上线
-1. Enjoy it!
+正则判断、排序、类操作、通用事件、ajax等
 
-## Development
-
-```
-$ npm install
-$ npm install -g gulp
-$ gulp
-```
 
 ## LICENSE
 
-MIT © [DIYgod](http://github.com/DIYgod)
+MIT © [lgl1993](http://github.com/lgl1993)

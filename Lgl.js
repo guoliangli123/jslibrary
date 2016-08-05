@@ -14,11 +14,12 @@ var Lgl=(function(){
 	//深拷贝
 	clone:function(src){
 		var clone=src;
-		 // 对于Date,String,Boolean等引用类型的数据，需要考虑调用构造函数重新构造，直接赋值依然会有引用问题
+		 // 对于Date引用类型的数据，需要考虑调用构造函数重新构造，直接赋值依然会有引用问题
 		if(src instanceof Date){
 			clone=new Date(src.parse());
 			return clone;
 		}
+
 		if(this.isArray(src)){
 			clone=[];
 			for(var key in src){
@@ -36,7 +37,7 @@ var Lgl=(function(){
 			}
 			return clone;
 		}
-		//对于数字字符串
+		//对于number,string,boolean,null,undefined
 		return src;
 	},
 
