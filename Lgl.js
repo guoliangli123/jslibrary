@@ -45,7 +45,7 @@ var Lgl=(function(){
 	uniqArray:function(arr){
 		var obj={};
 		for(var i=0,len=arr.length;i<len;i++){
-			obj.arr[i]=true;
+			obj[arr[i]]=true;
 		}
 		return Object.keys(obj);
 	},
