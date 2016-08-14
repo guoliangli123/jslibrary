@@ -125,13 +125,13 @@ var Lgl=(function(){
 	},
 
 	addClass:function(element,classname){
-		if(!hasClass(element,classname)){
+		if(!this.hasClass(element,classname)){
 			element.className=trim(element.className+' '+classname);
 		}
 	},
 
 	removeClass:function(element,classname){
-		if(hasClass(element,classname)){
+		if(this.hasClass(element,classname)){
 			element.className=trim(element.className.replace(classname,''));
 		}
 	},
